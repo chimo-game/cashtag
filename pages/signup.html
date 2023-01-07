@@ -104,6 +104,14 @@
           </div>
 
           <div class="col-12">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email" placeholder="you@example.com" required>
+            <div class="invalid-feedback">
+              Please enter your phone number
+            </div>
+          </div>
+
+          <div class="col-12">
             <label for="username" class="form-label">Username</label>
             <div class="input-group has-validation">
               <span class="input-group-text">@</span>
@@ -384,7 +392,7 @@
             </div>
           </div>
 
-          <div class="col-md-5">
+          <div class="col-md-7">
             <label for="country" class="form-label">Slots</label>
             <select class="form-select" id="country" required>
               <option value="">Choose...</option>
@@ -412,7 +420,21 @@
             <label for="zip" class="form-label">Promo Code</label>
             <input type="text" class="form-control" id="zip" placeholder="Put here if you have">
           </div>
+
+          <div class="col-md-12">
+            <label for="Cashtag" class="form-label">Cashtag</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text">$</span>
+              <input type="text" class="form-control" id="Cashtag" placeholder="cashtag" required>
+              <div class="invalid-feedback">
+                Your Cashtag is required.
+              </div>
+            </div>
+          </div>
+
         </div>
+
+
 
         <hr class="my-4">
 
