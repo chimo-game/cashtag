@@ -1,0 +1,27 @@
+body {
+  font-family: "Archivo", sans-serif;
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+
+  background-image: url("/assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 200ms linear;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(6px);
+  transition: all 200ms linear;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  color: #fff;
+  font-weight: 700;
+  max-width: 700px;
+}
+
+.card-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
