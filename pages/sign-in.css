@@ -12,6 +12,7 @@ body {
   color: #fff;
   background-color: #b0c0e4;
   background-image: url("/assets/images/bg.png");
+  backdrop-filter: blur(10px);
 }
 
 .form-signin {
